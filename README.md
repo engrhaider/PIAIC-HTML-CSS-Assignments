@@ -9,3 +9,8 @@ Kobe one page HTML template: https://themeforest.net/item/kobe-one-page-html-tem
 Another similar project that I've recently done for my upwork client is Figma to HTML Bootstrap 4: http://easyuptime.surge.sh/
 
 There are numerous other such projects which I can share.
+
+I'm level 2 seller on fiverr since 2016: https://www.fiverr.com/mapledesigns
+And Top rated on upwork: https://www.upwork.com/o/profiles/users/~01f05cc2e6eb8667f6/
+
+
