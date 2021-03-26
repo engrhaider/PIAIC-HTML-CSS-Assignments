@@ -1,0 +1,1142 @@
+/*
+-----------------------------------------------
+Template: Kobe - One page HTML template
+Version 1.0
+Author: pikijojo
+-----------------------------------------------
+1) Global CSS
+2) Navigation section
+3) Home section
+4) About section
+5) Features section
+6) Great Works section
+7) Reviews section
+8) OurTeam section
+9) Best Skills section
+10) Signup section
+11) Pricing section
+12) Owlslider section
+13) Contact section
+14) Map section
+15) Footer section
+16) Responsive CSS
+-----------------------------------------------
+*/
+
+
+/*
+-----------------------------------------------
+1) Global CSS
+-----------------------------------------------
+*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x:hidden;
+}
+
+div.section-header {
+    margin-bottom: 60px;
+}
+div.section-header h2 {
+    font-family: Roboto;
+    font-size:35px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container {
+    padding:0 100px !important;
+}
+hr.title-border {
+    border:3px solid #ffb73f;
+    width:300px;
+    margin: 40px auto;
+}
+hr.title-border:after {
+    content: "\f261";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.7em;
+    padding: 0 .25em;
+    background-color: #fdfdfd;
+    color: #ffb73f;
+    font-size:50px;
+}
+hr.border-header {
+    width:600px;
+    overflow-x: hidden;
+    margin:0 auto;
+    position:relative;
+    border:3px solid #ffaf2a;
+    top:-20px;
+}
+.col-center {
+    float:none;
+    display: block;
+    margin:0 auto;
+}
+/*
+-----------------------------------------------
+2) Navigation
+-----------------------------------------------
+*/
+.kobe-nav {
+    background:none;
+    border:none;
+    text-shadow: none;
+    min-height: 80px;
+}
+.navbar-brand>img {
+    height:40px;
+}
+div#navbar5 {
+    margin-right: -15px;
+}
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color:#FFF;
+    margin-right:5px;
+}
+.navbar-right {
+    padding-top:15px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border:0;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ffaf2a;
+}
+.navbar-default .navbar-nav>li>a:focus {
+    color: #ffaf2a;
+}
+header.fixedtop .navbar-default .navbar-nav>li>a:hover {
+    color:#ffaf2a !important
+}
+.navbar-default .navbar-toggle {
+    margin-top:18px;
+}
+header.fixedtop {
+    background: #333;
+    width: 100%;
+    height: 70px;
+    transition: .5s ease;
+}
+header.fixedtop .navbar-right {
+    padding-top:10px;
+} 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+
+/*
+-----------------------------------------------
+3) Home section
+-----------------------------------------------
+*/
+#kobe-home-section {
+    background: url(../images/kobe-home.png) no-repeat;
+    background-size:cover;
+    opacity:.9;
+    padding:0 10px;
+    position:relative;
+    z-index:10;
+}
+div#home-slider {
+    text-align: right;
+    padding:150px 0px;
+    padding-right:20px;
+    font-family: 'Roboto', sans-serif;
+}
+#home-slider .cheveron {
+    color: #ffaf2a;
+    font-size: 50px;
+    margin:0 10px;
+}
+div#home-slider h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffaf2a;
+    font-weight:bold;
+    line-height: 60px;
+    letter-spacing: 1px;
+    margin-top:0;
+}
+div#home-slider .textwhite {
+    color: #FFF;
+}
+#home-slider h4 {
+    color: #FFF;
+    text-transform: uppercase;
+}
+.carousel-content {
+    color:black;
+}
+
+#text-carousel {
+    width: 100%;
+    height: auto;
+}
+.homebtns {
+    margin-top:70px;
+}
+a.whitebtn {
+    background: white;
+    border: 2px solid #FFF;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-family: montserrat;
+    font-size: 12px;
+}
+a.whitebtn {
+    color: #333;
+    margin-right:30px;
+}
+a.whitebtn:hover {
+    text-decoration: none;
+    background: #434343;
+    color: #ffaf2a;
+    border: 2px solid #434343;
+}
+a.orangebtn {
+    background: none;
+    border:2px solid #ffaf2a;
+    border-radius:0;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-family: montserrat;
+    font-size: 12px;
+}
+a.orangebtn {
+    color: #ffaf2a;
+}
+a.orangebtn:hover {
+    text-decoration: none;
+    background: #434343;
+    color: #ffaf2a;
+    border: 2px solid #434343;
+}
+/*
+-----------------------------------------------
+4) About section
+-----------------------------------------------
+*/
+section#kobe-about-section {
+    background: url(../images/section-background.png);   
+    background-color: #ffffff;
+    padding:50px 0 100px 0;
+}
+#kobe-about-section .first-para {
+    font-family: Montserrat;
+    font-size:13px;
+    line-height: 24px;
+    color: #7a7979;
+    padding:20px 0;
+    padding-left: 15px;
+}
+section#kobe-about-section .box h3 {
+    font-family: Montserrat;
+    color: #434343;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+section#kobe-about-section .box .icons {
+    color: #dedddc;
+    font-size: 40px;
+    margin-left:10px;
+    margin-top:5px;
+}
+section#kobe-about-section .box p {
+    color: #7a7979;
+    font-family: Montserrat;
+    font-size:13px;
+    line-height: 24px;
+}
+/*
+-----------------------------------------------
+5) Features section
+-----------------------------------------------
+*/
+section#kobe-ourfeatures-section {
+    background: #434343;
+    padding:50px 0 50px 0;
+}
+#kobe-ourfeatures-section .section-header h2 {
+    color: #ffffff;
+}
+#kobe-ourfeatures-section .section-header hr.title-border:after {
+    background:#434343;
+}
+#kobe-ourfeatures-section .section-header {
+    margin-bottom:100px !important;
+}
+#kobe-ourfeatures-section .box h4 {
+    color: #ffaf2a;
+    margin-bottom:10px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    margin-left:80px;
+}
+#kobe-ourfeatures-section .box {
+    margin-bottom:50px;
+}
+#kobe-ourfeatures-section .box p {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size:13px;
+    line-height: 24px;
+    margin-left:80px;
+}
+#kobe-ourfeatures-section .box .abouticons {
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding:20px;
+    font-size:24px;
+}
+#kobe-ourfeatures-section .box .icons-wrap {
+    float:left;
+}
+/*
+-----------------------------------------------
+6) Great Works Section
+-----------------------------------------------
+*/
+section#kobe-work-section {
+    padding-top: 40px;
+}
+
+.features ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+
+/* category filter */
+
+.filter-container {
+    text-align: center;
+    padding: 20px
+}
+
+ul.filter > li > a {
+    color: #5e5e5e;
+    font-size: 15px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    padding: 5px;
+}
+
+ul.filter > li > a:hover,
+ul.filter > li > a:focus {
+    text-decoration: none;
+    color: #ffaf2a;
+    outline: none;
+    border-bottom: 3px solid #ffaf2a;
+    padding: 5px;
+    transition: .3s ease;
+}
+
+ul.filter > li.active a {
+    border-bottom: 3px solid #ffaf2a;
+    padding: 5px;
+    color: #ffaf2a;
+}
+
+ul.filter > li span {
+    color: #ddd;
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 5px
+}
+
+.filter-section .filter-container .filter > li {
+    padding-left: 20px;
+    margin: 0
+}
+
+.filter-section h1 {
+    text-align: center;
+}
+
+
+/* the color of the transparent overlay border */
+
+.portfolio-section.port-col figure .overlay-background {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* portfolio images */
+
+.kill-padding {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.portfolio-section figure {
+    float: left;
+    width: 100%;
+    position: relative
+}
+
+.portfolio-section figure img {
+    width: 100%;
+    height: 310px;
+}
+
+
+/* project title under image */
+
+.portfolio-section .article-title {
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 0 30px 0;
+}
+
+.portfolio-section .article-title a {
+    color: #aaa
+}
+
+
+/* transparent overlay */
+
+.portfolio-section figure:hover .overlay {
+    opacity: 1;
+    visibility: visible
+}
+
+.portfolio-section figure:hover .overlay-background {
+    opacity: .8;
+    visibility: visible
+}
+
+.portfolio-section figure .overlay-background {
+    z-index: 1;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%
+}
+
+.portfolio-section figure .overlay-background .inner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #595957;
+}
+
+.portfolio-section figure .overlay {
+    z-index: 2;
+    transition: all .2s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%
+}
+
+.portfolio-section figure .inner-overlay {
+    display: table;
+    width: 100%;
+    height: 100%
+}
+
+.portfolio-section figure .inner-overlay-content {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding: 20px 40px
+}
+
+.portfolio-section figure .inner-overlay-content.with-icons {
+    text-align: center
+}
+
+.portfolio-section figure .inner-overlay-content.with-icons h2 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+
+/* icons inside overlay */
+
+.portfolio-section figure .inner-overlay-content.with-icons a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    line-height: 42px;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.portfolio-section figure .inner-overlay-content.with-icons a:hover {
+    color: #434343;
+    background:#ffaf2a;
+    border:none;
+}
+
+
+
+/* skew image on hover */
+
+.isotopeSelector img {
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease
+}
+
+.isotopeSelector:hover img {
+    -moz-transform: scale(1.5) rotate(2deg);
+    -webkit-transform: scale(1.5) rotate(2deg);
+    -o-transform: scale(1.5) rotate(2deg);
+    -ms-transform: scale(1.5) rotate(2deg);
+    transform: scale(1.5) rotate(2deg);
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    transition: all .8s ease
+}
+
+.isotopeSelector figure {
+    overflow: hidden
+}
+
+.isotopeSelector figure {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2)
+}
+.inner-overlay-content.with-icons p {
+    font-family:Montserrat;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.portfolio-section{
+    display: none;
+}
+/*
+-----------------------------------------------
+7) Reviews section
+-----------------------------------------------
+*/
+#kobe-reviews-section {
+    padding-bottom:40px;
+    padding-top:60px;
+    background:url(../images/section-background.png);
+}
+#kobe-reviews-section .section-header h2 {
+    background: #fdfdfd !important;
+    width: 400px;
+    margin: 0 auto;
+    font-size:26px;
+    position: relative;
+    z-index: 4;
+}
+li.circle-indicate.active {
+    background: #ffaf2a!important;
+}
+.profile-name {
+    color: #434343;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    text-align: center;
+    margin-top:-20px;
+}
+p.website {
+    text-align: center;
+    font-family: Roboto;
+    color: #7a7979;
+}
+blockquote p {
+    color: #7a7979;
+    font-family: Roboto;
+    font-size:15px;
+    padding:10px 40px;
+    line-height: 24px;
+}
+blockquote:before {
+    content:'\f10d';
+    color: #dedddc;
+    font-size:35px;
+    font-family: FontAwesome;
+    float:left;
+    margin-top:-40px;
+}
+blockquote:after {
+    content:'\f10e';
+    font-size:35px;
+    color: #dedddc;
+    font-family: FontAwesome;
+    margin:10px;
+    float:right;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+    padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+    opacity: 1;
+    -webkit-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+    bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+    background-color: #434343;
+    border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+    text-align: center;
+}
+
+/*
+-----------------------------------------------
+8) OurTeam section
+-----------------------------------------------
+*/
+#kobe-ourteam-section {
+    padding:40px 0;
+    background-color: #434343;
+}
+#kobe-ourteam-section .section-header h2 {
+    color:#FFF;
+}
+#kobe-ourteam-section .section-header {
+    margin-bottom:80px;
+}
+#kobe-ourteam-section hr.title-border:after {
+    background:#434343;
+}
+#kobe-ourteam-section .individualbio {
+    margin-bottom:60px;
+}
+.individualbio img {
+    margin:0 auto;
+}
+#kobe-ourteam-section .individualbio h3 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size:20px;
+}
+#kobe-ourteam-section .individualbio h3 a {
+    color: #ffaf2a;
+}
+#kobe-ourteam-section .individualbio h3 a:hover {
+    text-decoration: none;
+}
+#kobe-ourteam-section .individualbio .post-meta {
+    color: #ffffff;
+    font-family: Roboto;
+    margin:10px 0px;
+    font-style: italic;
+}
+#kobe-ourteam-section .individualbio p {
+    color:#ffffff;
+    font-family: Montserrat;
+    font-size:13px;
+    margin-bottom:20px;
+    line-height: 24px;
+}
+#kobe-ourteam-section .individualbio .social-icons ul {
+    list-style:none;
+    padding:0;
+}
+.individualbio .social-icons ul li {
+    display:inline-block;
+}
+#kobe-ourteam-section .individualbio .social-icons ul li a {
+    margin-right: 20px;
+    color:#FFF;
+}
+.individualbio .social-icons ul li a:hover {
+    color:#ffaf2a !important;
+}
+/*
+-----------------------------------------------
+9) Best Skills Section
+-----------------------------------------------
+*/
+#kobe-skills-section {
+    padding-top:60px;
+    padding-bottom:60px;
+    background:url(../images/section-background.png); 
+}
+#kobe-skills-section .section-header h2 {
+    background: #fdfdfd !important;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 4;
+}
+.skillbar h4 {
+    color: #7a7979;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    border-bottom:2px solid #434343;
+    padding-bottom:20px;
+}
+span.percentage {
+    padding: 10px 5px;
+    border-radius: 50%;
+    background: #333;
+    color: #ffaf2a;
+    font-family: Montserrat;
+    position: relative;
+    left: 95%;
+    bottom: 22px;
+}
+span.percentage:after{
+    content:"%";
+}
+/*
+-----------------------------------------------
+10) Signup section
+-----------------------------------------------
+*/
+#kobe-signup-section {
+    padding:100px 10px;
+    background: url(../images/Signup.png) no-repeat;
+    background-size:cover;
+
+}
+#kobe-signup-section h2 {
+    font-family: Roboto;
+    text-transform: uppercase;
+    color: #434343;
+    font-size:24px;
+}
+#kobe-signup-section p {
+    color:#434343;
+    font-family: Montserrat;
+    padding:15px 10px 40px 10px;
+}
+p.notspam {
+    margin-top:70px;
+}
+#kobe-signup-section input[name="email"] {
+    padding:10px;
+    border:2px solid #434343;
+    font-family: Montserrat;
+    color:#434343;
+    background:transparent;
+}
+::-webkit-input-placeholder {
+    color:#434343;
+}
+#kobe-signup-section input[type="submit"] {
+    padding:10px 20px;
+    border:2px solid #434343;
+    background-color: #434343;
+    color:#FFF;
+    font-family: Montserrat;
+    margin-left:-10px;
+    text-transform: uppercase;
+}
+#kobe-signup-section input[type="submit"]:hover {
+    background:#ffaf2a;
+    color:#434343;
+    border:2px solid #ffaf2a;
+}
+/*
+-----------------------------------------------
+11) Pricing section
+-----------------------------------------------
+*/
+#kobe-pricing-section {
+    padding:40px 5px;
+    padding-bottom:90px;
+    background:#FFF;
+}
+#kobe-pricing-section .section-header {
+    margin-bottom:80px;
+}
+#kobe-pricing-section .plan {
+    border:1px solid #434343;
+    padding-top:20px;
+    font-family:Montserrat;
+    text-transform: uppercase;
+    margin-bottom:20px;
+    padding-bottom:35px;
+}
+#kobe-pricing-section .price {
+    background:#ffaf2a;
+}
+.plan .price p {
+    color:#434343 !important;
+    font-size: 50px;
+    padding:20px;
+    margin:15px 25px;
+    border:0 !important;
+}
+.plan .symbol {
+    font-size:25px;
+}
+.plan .subscript {
+    font-size:25px;
+}
+#kobe-pricing-section p {
+    color: #7a7979;
+    border-bottom:1px solid #7a7979;
+    width:75%;
+    margin:20px auto;
+    padding-bottom:10px;
+}
+.getstart-btn {
+    color:#434343;
+    background:#ffaf2a;
+    border-radius:0;
+    border:0;
+    padding:10px 15px;
+}
+.plan .black {
+    background:#434343 !important;
+    color:#ffaf2a !important;
+}
+.plan a.btn:hover {
+    background: #ffaf2a !important;
+    color: #434343 !important;
+}
+#plan2 {
+    background-color: #434343 !important;
+    color:#FFF;
+}
+#plan2 a.btn:hover {
+    background:#FFF !important;
+    color:#434343 !important;
+}
+#plan2 .details p {
+    color:#FFF;
+    border-color:#ffaf2a;
+}
+/*
+-----------------------------------------------
+12) Owlslider section
+-----------------------------------------------
+*/
+
+#kobe-owlslider-section {
+    width: 100%;
+    padding:40px 0px;
+    padding-bottom: 30px;
+    background: url(../images/owl-pattern.png);
+    background-size:cover;
+}
+div#kobe-sliderrow {
+    padding-left: 150px;
+    padding-right: 100px;
+}
+#owl-demo .item {
+    margin: 3px;
+}
+#owl-demo .item img {
+    display: block;
+    height: auto;
+}
+
+/*
+-----------------------------------------------
+13) Contact Section
+-----------------------------------------------
+*/
+
+#kobe-contact-section {
+    padding:40px 5px;
+    padding-bottom:80px;
+    background: url(../images/contact-background.png);
+}
+#kobe-contact-section h3 {
+    color: #434343;
+    font-family: Roboto;
+    text-transform: uppercase;
+    margin-bottom:30px;
+    margin-left:18px;
+}
+.contact-widget input[type="text"],input[type="email"],textarea {
+    display: block;
+    width:100%;
+    padding:10px;
+    font-family: Roboto;
+    margin-bottom:12px;
+    background:none;
+    outline:0;
+    border:1px solid #333;
+}
+.contact-widget .contactbtn {
+    border-radius:0;
+    border:0;
+    background-color: #ffaf2a;
+    color: #434343;
+    font-family:Montserrat;
+    text-transform: uppercase;
+    padding:10px 20px;
+}
+.contactbtn:hover {
+    background: #434343;
+    color: #ffaf2a;
+}
+#kobe-contact-section .fulladdress {
+    color: #7a7979;
+    font-family: Lato;
+    font-size:18px
+}
+i.fa.fa-map-marker {
+    margin-top: 30px;
+}
+.fulladdress div {
+    margin-bottom:30px;
+}
+.fulladdress p {
+    margin-left:70px;
+}
+.fulladdress .contacticon {
+    color: #ffaf2a;
+    font-size:40px;
+    float:left;
+}
+/*
+-----------------------------------------------
+14) Map Section
+-----------------------------------------------
+*/
+
+
+#kobe-map-section iframe {
+    width:100%;
+    border:0;
+    height:480px;
+}
+.map-container {
+    width: 100%;
+}
+.map-container iframe{
+    width: 100%;
+    display: block;
+    pointer-events: none;
+    position: relative; /* IE needs a position other than static */
+}
+.map-container iframe.clicked{
+    pointer-events: auto;
+}
+/*
+-----------------------------------------------
+15) Footer Section
+-----------------------------------------------
+*/
+
+#kobe-footer-section{
+    background:#434343;
+    height:170px;
+    margin:0px;
+    padding-bottom:20px;
+    margin-top:-10px;
+}
+.social {
+    margin-top:80px;
+}
+.social ul li .fa {
+    width:20px;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline-block;
+    padding:8px;
+    border: 1px solid #ffffff;
+    margin-left: 10px;
+}
+.social ul li:first-child {
+    margin-left: 0px;
+}
+.social ul li a{
+    color:#fff;
+    font-size:15px;
+}
+.social ul li a:hover{
+    color:#ffaf2a;
+}
+
+.copyright-content{
+    color:#fff;
+    margin-bottom:0;
+    font-size:13px;
+    font-family:Roboto;
+}
+/*
+-----------------------------------------------
+16) Responsive CSS
+-----------------------------------------------
+*/
+@media screen and (max-width:1000px) {
+    .container {
+        padding: 0 20px !important;
+    }
+    #kobe-sliderrow {
+        padding:0px;
+    }
+}
+@media screen and (max-width:990px) {
+    .fulladdress {
+        margin-top:50px !important;
+    }
+}
+@media screen and (max-width:780px) {
+    .collapsing, .in {
+        background-color: #333;
+        margin-left:-20px !important;
+        margin-right:-20px !important;
+    }
+}
+@media screen and (max-width:728px) {
+    
+    .contact-widget {
+        margin-bottom:50px;
+    }
+    div#home-slider h2 {
+        font-size: 35px;
+        line-height: 40px ;
+    }
+    .section-header h2 {
+        font-size:30px !important;
+        width: auto !important;
+    }
+    hr.border-header {
+        display:none;
+    }
+    .individualbio {
+        text-align:center;
+        padding:10px 20px;
+    }
+    .individualbio .social-icons {
+        text-align: center;
+    }
+    div#kobe-sliderrow {
+        padding-right:0px;
+    }
+    .homebtns {
+        margin-top:30px;
+    }
+}
+@media screen and (max-width : 400px)
+{
+    #kobe-about-section .first-para {
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .section-header {
+        padding-left:10px;
+        padding-right:10px;
+    }
+    div.section-header h2 {
+        font-size:24px !important;
+    }
+    .social ul li {
+        margin-left:4px;
+        padding:4px;
+    }
+    #kobe-sliderrow {
+        padding-left:35% !important;
+        padding-right:0px !important;
+    }
+    a.whitebtn {
+        margin-bottom:20px;
+        margin-right:0;
+    }
+    #kobe-signup-section input[name="email"] {
+        width:100% !important;
+        margin-left:2px !important;
+    }
+    #kobe-signup-section input[type="submit"] {
+        width:100% !important;
+        margin-left:2px !important;
+        margin-top:10px;
+    }
+    hr.title-border {
+        width:90%;
+    }
+    hr.border-header {
+        display:none;
+    }
+    .fulladdress {
+        font-size:15px !important;
+    }
+    .homebtns .btn {
+        width:50%;
+        float:right
+        display:block;
+    }
+    div#home-slider {
+        padding:70px 0px !important;
+    }
+    #kobe-signup-section {
+        padding:30px 0px;
+    }
+    p.notspam{
+        margin-top:15px;
+    }
+}
+@media screen and (max-width:450px){
+    .isotopeSelector {
+        width:100% !important;
+    }
+}
